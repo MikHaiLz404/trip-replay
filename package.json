@@ -13,6 +13,7 @@
     "fetch-scramble": "node scripts/fetch-scramble.mjs"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^2.0.0",
     "maplibre-gl": "4.7.1",
     "three": "^0.180.0"
   },
