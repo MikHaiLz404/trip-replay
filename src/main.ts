@@ -2,7 +2,10 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import "../design-system/moss-and-mist/tokens.css";
 import "../design-system/moss-and-mist/components/bundle.css";
 import "./styles/app.css";
+import { injectSpeedInsights } from "@vercel/speed-insights";
 import { isEmbedMode } from "./lib/embed";
+
+injectSpeedInsights();
 import { findTrip, slugFromPath, tripsByDate } from "./trips";
 import { renderHome, renderNotFound } from "./app/home";
 
